@@ -7,7 +7,7 @@
 }
 
 .section__container{
- max-width: ;
+ max-width: 300;
  margin: auto;
  padding: 5rem 1rem;
 }
@@ -15,7 +15,7 @@
 .section__header {
     margin-bottom: 1rem;
     font-size: 2.25rem;
-    font-weight: 600;
+    font-weight: 550;
     text-align: center;
     color: black;
 }
@@ -121,11 +121,6 @@ nav {
     z-index: -1;
 }
 
-.header__blur {
-    bottom: 5rem;
-    right: 0;
-}
-
 .header__content h4 {
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -177,7 +172,7 @@ nav {
 .explore__nav span {
     padding: 0 6px;
     font-size: 1.5rem;
-    color: var(--white);
+    color: black;
     border: 2px solid lightblue;
     border-radius: 100%;
     cursor: pointer;
@@ -214,7 +209,27 @@ nav {
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
-    color: var(--white);
+    color: black;
     background-color: lightblue;
     border-radius: 5px;
+}
+
+.explore__card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.explore__card p {
+    margin-bottom: 1rem;
+}
+
+.explore__card a {
+    color: black;
+    transition: 0.4s;
+}
+
+.explore__card a:hover {
+    color: darkgrey;
 }
