@@ -7,7 +7,7 @@
 }
 
 .section__container{
- max-width: 300;
+ max-width: 1283px;
  margin: auto;
  padding: 5rem 1rem;
 }
@@ -54,7 +54,7 @@ text-decoration: none;
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.869);
 }
 
 nav {
@@ -231,5 +231,83 @@ nav {
 }
 
 .explore__card a:hover {
-    color: darkgrey;
+    color: darkgray;
 }
+
+.class__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.class__image {
+    position: relative;
+}
+
+
+.class__image .class__img-2 {
+    position: absolute;
+    right: 1;
+    top: 0;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.class__content {
+    padding: 2rem 0;
+}
+
+.class__content .section__header {
+    text-align: left;
+    max-width: 400px;
+}
+
+.class__content p {
+    margin-bottom: 4rem;
+    color: black
+}
+
+.join__image {
+    margin-top: 4rem;
+    position: relative;
+}
+
+.join__image img {
+    border-radius: 10px;
+}
+
+.join__grid {
+    position: absolute;
+    bottom: -5rem;
+    width: calc(100% - 4rem);
+    padding: 2rem;
+    margin: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.join__card {
+    flex: 1 1 270px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.join__card span {
+    padding: 5px 12px;
+    font-size: 1.75rem;
+    color: black;
+    background-color: lightcyan;
+    border-radius: 5px;
+}
+
+.join__card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+
