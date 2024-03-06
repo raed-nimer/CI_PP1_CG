@@ -7,7 +7,7 @@
 }
 
 .section__container{
- max-width: 1283px;
+ max-width: 1275px;
  margin: auto;
  padding: 5rem 1rem;
 }
@@ -290,7 +290,7 @@ nav {
 }
 
 .join__card {
-    flex: 1 1 270px;
+    flex: 1 1 265px;
     display: flex;
     align-items: center;
     gap: 1rem;
