@@ -116,15 +116,15 @@ nav {
     font-size: 10rem;
     font-weight: 700;
     line-height: 7rem;
-    color: white;
-    opacity: 0.09;
+    color: gray;
+    opacity: 0.9;
     z-index: -1;
 }
 
 .header__content h4 {
     margin-bottom: 1rem;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 601;
     color: black;
 }
 
