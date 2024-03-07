@@ -15,7 +15,7 @@
 .section__header  {
     margin-bottom: 1.4rem;
     font-size: 2.26rem;
-    font-weight: 600;
+    font-weight: 610;
     text-align: center;
     color: black;
 }
@@ -75,12 +75,12 @@ nav {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .link a {
   position: relative;
-  padding-bottom: 0.75rem;
+  padding-bottom: 0.73rem;
   color: black;
 }
 
@@ -111,13 +111,13 @@ nav {
 .header__container::before {
     content: "GET FIT";
     position: absolute;
-    bottom: 5rem;
+    bottom: 6rem;
     right: 33rem;
     font-size: 10rem;
     font-weight: 700;
     line-height: 7rem;
     color: white;
-    opacity: 0.05;
+    opacity: 0.09;
     z-index: -1;
 }
 
@@ -216,7 +216,7 @@ nav {
 
 .explore__card h4 {
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: black;
 }
