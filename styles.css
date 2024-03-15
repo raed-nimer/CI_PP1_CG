@@ -348,3 +348,33 @@ nav {
     font-weight: 700;
     color: black;
 }
+
+.price__card h3{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.price__card p{
+    margin-bottom: 0.75rem;
+    color: black;
+}
+
+.price__card p i{
+    margin-right: .5rem;
+    font-size: 1.3rem;
+    color: orange;
+}
+
+.price__btn{
+    color: lightblue;
+    background-color: lightcyan;
+    border: 2px solid black;
+}
+
+.price__btn:hover{
+    color: white;
+    background-color: lightblue;
+}
