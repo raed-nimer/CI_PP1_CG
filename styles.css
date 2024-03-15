@@ -343,9 +343,9 @@ nav {
 }
 
 .price__card h4{
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 500;
     color: black;
 }
 
@@ -353,6 +353,7 @@ nav {
     padding-bottom: 1rem;
     margin-bottom: 2rem;
     font-size: 2rem;
+    font-weight: 600;
     color: black;
     border-bottom: 2px solid black;
 }
