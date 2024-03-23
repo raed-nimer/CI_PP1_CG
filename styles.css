@@ -284,13 +284,13 @@ nav {
     margin: 0 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     background-color: lightblue;
     border-radius: 10px;
 }
 
 .join__card {
-    flex: 1 1 262px;
+    flex: 1 1 265px;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -377,5 +377,5 @@ nav {
 
 .price__btn:hover{
     color: white;
-    background-color: lightblue;
+    background-color: black;
 }
