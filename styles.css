@@ -382,27 +382,29 @@ nav {
 }
 
 /* Form */
+
 #signup-form {
-    color: lightblue;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-    margin-top: 3rem;
-    display: grid;
-    gap: 2rem;
+   border: 2px solid #ccc;
+   background-color: lightblue;
+   width: 400px;
+   margin: 0 auto;
+   padding: 20px;
 }
 
-#signup-form h2 {
-    color: black;
+
+#signup-form>h2 {
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
+
 .text-input {
     background: transparent;
-    color: black;
-    width: 100%;
+    color: #fafafa;
+    width: 50%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid black;
+    border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
 }
