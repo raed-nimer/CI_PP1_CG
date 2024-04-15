@@ -386,14 +386,14 @@ nav {
 #signup-form {
    border: 2px solid #ccc;
    background-color: lightblue;
-   width: 400px;
+   width: 480px;
    margin: 0 auto;
    padding: 20px;
 }
 
 
 #signup-form>h2 {
-    color: #fafafa;
+    color: black;
     margin-bottom: 20px;
 }
 
