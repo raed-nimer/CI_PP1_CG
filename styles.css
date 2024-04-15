@@ -30,7 +30,7 @@
 .btn {
     padding: 1rem 2rem;
     outline: none;
-    border: 2px solid #fafafa;
+    border: 1px solid #fafafa;
     font-size: 1rem;
     color: black;
     background-color: lightblue;
@@ -54,7 +54,7 @@ text-decoration: none;
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(128, 128, 128, 0.869);
+    background-color: rgba(128, 128, 128, 0.878);
 }
 
 nav {
