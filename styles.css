@@ -36,7 +36,7 @@
     background-color: lightblue;
     border-radius: 5px;
     cursor: pointer;
-    transition: .3s;
+    transition: .2s;
 }
 
 .btn:hover {
@@ -167,21 +167,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 2rem;
-}
-
-.explore__nav span {
-    padding: 0 6px;
-    font-size: 1.5rem;
-    color: black;
-    border: 2px solid lightblue;
-    border-radius: 100%;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.explore__nav span:hover {
-    color: lightblue;
-    border-color: lightcyan;
 }
 
 .explore__grid {
@@ -316,6 +301,7 @@ nav {
 }
 
 /* Price card */
+
 .price__grid{
     margin-top: 3rem;
     display: grid;
