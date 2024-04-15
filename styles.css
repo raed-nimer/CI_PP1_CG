@@ -357,9 +357,9 @@ nav {
 }
 
 .price__btn{
-    color: lightblue;
+    color: black;
     background-color: lightcyan;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .price__btn:hover{
