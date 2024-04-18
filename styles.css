@@ -407,7 +407,7 @@ footer {
     justify-content: center;
 }
 
-.footer {
+.footer-content {
     width: 33.3%;
 }
 
@@ -440,7 +440,7 @@ h3 {
 }
 
 .list li ::before {
-    content: '';
+    content: "";
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -448,7 +448,8 @@ h3 {
     width: 0;
     height: 2px;
     background: orange;
-    transition-duration: 0.3s;
+    transition: .3s;
+
 }
 
 .list li:hover::before {
@@ -481,4 +482,18 @@ a:hover {
 
 .social-icons i:hover {
     color: orange;
+}
+
+.bottom-bar {
+    background: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.bottom-bar p {
+    color: black;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
 }
