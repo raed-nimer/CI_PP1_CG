@@ -438,3 +438,47 @@ h3 {
     padding: 7px;
     position: relative;
 }
+
+.list li ::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transition-duration: 0.3s;
+}
+
+.list li:hover::before {
+    width: 70px;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i {
+    color: black;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+.social-icons i:hover {
+    color: orange;
+}
