@@ -272,6 +272,7 @@ nav {
     gap: 3rem;
     background-color: lightblue;
     border-radius: 10px;
+    margin-bottom: 60px;
 }
 
 .join__card {
@@ -300,13 +301,14 @@ nav {
     color: black;
 }
 
-/* Price card */
 
+/* Price card */
 .price__grid{
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    margin-bottom: 50px;
 }
 
 .price__card{
@@ -367,8 +369,8 @@ nav {
     background-color: orange;
 }
 
-/* Form */
 
+/* Form */
 #signup-form {
    border: 2px solid #ccc;
    background-color: lightblue;
@@ -395,9 +397,13 @@ nav {
     padding: 0 5px;
 }
 
+
+/* Footer */
 footer {
     background: lightblue;
     padding-top: 50px;
+    border: 2px solid #fafafa;
+    margin-top: 100px;
 }
 
 .container {
