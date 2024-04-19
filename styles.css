@@ -39,6 +39,11 @@
     transition: .2s;
 }
 
+.btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .btn:hover {
     background-color: lightcyan;
 }
@@ -437,28 +442,16 @@ footer {
     padding: 0;
 }
 
+.list a:visited {
+color: black;
+}
+
 .list li {
     width: auto;
     text-align: center;
     list-style-type: none;
     padding: 7px;
     position: relative;
-}
-
-.list a ::before {
-    content: "";
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 100%;
-    width: 0;
-    height: 2px;
-    background: orange;
-    transition: .3s;
-}
-
-.list li:hover::before {
-    width: 70px;
 }
 
 .social-icons {
