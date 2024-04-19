@@ -417,7 +417,7 @@ footer {
     width: 33.3%;
 }
 
-h3 {
+.footer-content h3 {
     font-size: 28px;
     margin-bottom: 15px;
     text-align: center;
@@ -445,7 +445,7 @@ h3 {
     position: relative;
 }
 
-.list li ::before {
+.list a ::before {
     content: "";
     position: absolute;
     transform: translate(-50%, -50%);
@@ -455,7 +455,6 @@ h3 {
     height: 2px;
     background: orange;
     transition: .3s;
-
 }
 
 .list li:hover::before {
@@ -482,7 +481,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.list a:hover {
     color: orange;
 }
 
