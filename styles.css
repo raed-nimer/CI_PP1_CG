@@ -1,25 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+
+/* Resetting default styles for all elements */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+
+/* Styles for the container of each section */
 .section__container {
  max-width: 1285px;
  margin: auto;
  padding: 5rem 1rem;
 }
 
+
+/* Styles for the header of each section */
 .section__header  {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.1rem;
     font-size: 2.26rem;
     font-weight: 585;
     text-align: center;
     color: black;
 }
 
+
+/* Styles for the subheader of each section */
 .section__subheader {
    max-width: 600px;
    margin: auto;
@@ -27,6 +36,8 @@
    color: black;
 }
 
+
+/* Styling the buttons */
 .btn {
     padding: 1rem 2rem;
     outline: none;
@@ -39,29 +50,41 @@
     transition: .2s;
 }
 
+
+/* Styling the links within buttons */
 .btn a {
     text-decoration: none;
     color: inherit;
 }
 
+
+/* Adding Hover styles to the buttons */
 .btn:hover {
     background-color: lightcyan;
 }
 
+
+/* Styling the images */
 img {
     width: 100%;
     display: flex;
 }
 
+
+/* No text decorations for links */
 a {
 text-decoration: none;
 }
 
+
+/* Styling the body */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgba(128, 128, 128, 0.878);
 }
 
+
+/* Styles for the navigation bar */
 nav {
  max-width: 1200px;
  margin: auto;
@@ -72,10 +95,14 @@ nav {
  gap: 2rem;
 }
 
+
+/* Styling the navigation logo */
 .nav__logo {
     max-width: 150px;
 }
 
+
+/* Adding styles to the navigation links */
 .nav__links {
   list-style: none;
   display: flex;
@@ -83,12 +110,16 @@ nav {
   gap: 4rem;
 }
 
+
+/* Styling the links */
 .link a {
   position: relative;
   padding-bottom: 0.73rem;
   color: black;
 }
 
+
+/* Styling the links underline */
 .link a::after {
     content: "";
     position: absolute;
@@ -100,10 +131,14 @@ nav {
     transition: 0.2s;
   }
 
+
+/* Adding size to the link underline */
 .link a:hover::after {
     width:60%
 }
 
+
+/* Styling the header container */
 .header__container {
     position: relative;
     padding-top: 2rem;
@@ -113,6 +148,7 @@ nav {
     gap: 2rem; 
 }
 
+/* Styling the decorative text */
 .header__container::before {
     content: "GET FIT";
     position: absolute;
@@ -125,6 +161,8 @@ nav {
     opacity: 0.9;
     z-index: -1;
 }
+
+
 
 .header__content h4 {
     margin-bottom: 1rem;
