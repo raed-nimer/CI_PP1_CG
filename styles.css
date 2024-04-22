@@ -8,7 +8,11 @@
     box-sizing: border-box;
 }
 
-
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(128, 128, 128, 0.878);
+}
 
 /* Styles for the container of each section */
 .section__container {
@@ -51,14 +55,14 @@
 }
 
 
-/* Styling the links within buttons */
+
 .btn a {
     text-decoration: none;
     color: inherit;
 }
 
 
-/* Adding Hover styles to the buttons */
+
 .btn:hover {
     background-color: lightcyan;
 }
@@ -71,17 +75,11 @@ img {
 }
 
 
-/* No text decorations for links */
+
 a {
 text-decoration: none;
 }
 
-
-/* Styling the body */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: rgba(128, 128, 128, 0.878);
-}
 
 
 /* Styles for the navigation bar */
@@ -102,7 +100,6 @@ nav {
 }
 
 
-/* Adding styles to the navigation links */
 .nav__links {
   list-style: none;
   display: flex;
@@ -111,7 +108,7 @@ nav {
 }
 
 
-/* Styling the links */
+
 .link a {
   position: relative;
   padding-bottom: 0.73rem;
@@ -119,7 +116,6 @@ nav {
 }
 
 
-/* Styling the links underline */
 .link a::after {
     content: "";
     position: absolute;
@@ -129,10 +125,9 @@ nav {
     bottom: 0;
     background-color: white;
     transition: 0.2s;
-  }
+ }
 
 
-/* Adding size to the link underline */
 .link a:hover::after {
     width:60%
 }
@@ -147,6 +142,7 @@ nav {
     align-items: center;
     gap: 2rem; 
 }
+
 
 /* Styling the decorative text */
 .header__container::before {
@@ -163,13 +159,13 @@ nav {
 }
 
 
-
 .header__content h4 {
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: 601;
     color: black;
 }
+
 
 .header__content h1 {
     margin-bottom: 1rem;
@@ -179,19 +175,24 @@ nav {
     color: white;
 }
 
+
+/* Adding styles to the header title span */
 .header__content h1 span {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px white;
 }
+
 
 .header__container p {
     margin-bottom: 2rem;
     color: black;
 }
 
+
 .header__image {
     position: relative;
 }
+
 
 
 .header__image img {
@@ -199,6 +200,9 @@ nav {
     margin: auto;
 }
 
+
+
+/* Styles for the explore content */
 .explore__header {
     display: flex;
     align-items: center;
@@ -212,6 +216,7 @@ nav {
     gap: 2rem;
 }
 
+/* Creating 4 columns with equal width */
 .explore__grid {
     margin-top: 4rem;
     display: grid;
@@ -232,6 +237,7 @@ nav {
     border-color: lightblue;
 }
 
+/* Styling the explore card logo */
 .explore__card span {
     display: inline-block;
     padding: 2px 9px;
@@ -258,6 +264,7 @@ nav {
     transition: 0.4s;
 }
 
+/* Adding Hover styles to the buttons */
 .explore__card a:hover {
     color: orange;
 }
@@ -292,9 +299,11 @@ nav {
 
 .class__content p {
     margin-bottom: 4rem;
-    color: black
+    color: black;
 }
 
+
+/* Styling and positioning the join image (Why us)*/
 .join__image {
     margin-top: 5rem;
     position: relative;
@@ -304,6 +313,8 @@ nav {
     border-radius: 10px;
 }
 
+
+/* Styling the grid container for the join cards section */
 .join__grid {
     position: absolute;
     bottom: -5rem;
@@ -317,6 +328,7 @@ nav {
     border-radius: 10px;
     margin-bottom: 60px;
 }
+
 
 .join__card {
     flex: 1 1 265px;
@@ -345,6 +357,7 @@ nav {
 }
 
 
+
 /* Price card */
 .price__grid{
     margin-top: 3rem;
@@ -364,6 +377,7 @@ nav {
     transition: 0.2;
 }
 
+/* Adding Hover to the card */
 .price__card:hover{
     background-color: lightcyan;
     border-color: lightblue;
@@ -407,6 +421,7 @@ nav {
     border: 1px solid black;
 }
 
+/* styling the buttons with Hover */
 .price__btn:hover{
     color: white;
     background-color: orange;
