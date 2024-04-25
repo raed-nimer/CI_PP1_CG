@@ -548,3 +548,26 @@ a {
     font-size: 16px;
     padding: 7px;
 }
+
+/* Media query: tablets and larger (900px and up) */
+@media screen and (min-width: 900px) {
+
+  /* Header */
+  .nav__links{
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+
+  .header__container {
+    grid-template-columns: repeat(1,1fr);
+  }
+    
+  .header__image {
+    grid-area: 1/1/2/2;
+  }
+
+
+}
