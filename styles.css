@@ -550,7 +550,7 @@ a {
 }
 
 /* Media query: tablets and larger (900px and up) */
-@media screen and (min-width: 900px) {
+@media screen and (width < 900px) {
 
   /* Header */
   .nav__links{
