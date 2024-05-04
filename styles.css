@@ -303,60 +303,6 @@ nav {
 }
 
 
-/* Styling and positioning the join image (Why us)*/
-.join__image {
-    margin-top: 5rem;
-    position: relative;
-}
-
-.join__image img {
-    border-radius: 10px;
-}
-
-
-/* Styling the grid container for the join cards section */
-.join__grid {
-    position: absolute;
-    bottom: -5rem;
-    width: calc(100% - 4rem);
-    padding: 3rem;
-    margin: 0 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    background-color: lightblue;
-    border-radius: 10px;
-    margin-bottom: 60px;
-}
-
-
-.join__card {
-    flex: 1 1 265px;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.join__card span {
-    padding: 5px 12px;
-    font-size: 1.80rem;
-    color: black;
-    background-color: lightcyan;
-    border-radius: 5px;
-}
-
-.join__card h4 {
-    margin-bottom: 0.5rem;
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: black;
-}
-
-.join__card p {
-    color: black;
-}
-
-
 
 /* Price card */
 .price__grid{
@@ -432,7 +378,8 @@ nav {
 #signup-form {
    border: 2px solid #ccc;
    background-color: lightblue;
-   width: 450px;
+   width: 100%;
+   max-width: 450px;
    margin: 0 auto;
    padding: 20px;
 }
@@ -457,18 +404,19 @@ nav {
 
 
 /* Footer */
-footer {
+ .footer {
     background: lightblue;
     padding-top: 50px;
     border: 2px solid #fafafa;
     margin-top: 100px;
 }
 
-.container {
-    width: 1140px;
+.footer__container {
+    width: 100%;
+    max-width: 1140px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer-content {
@@ -478,17 +426,11 @@ footer {
 .footer-content h3 {
     font-size: 28px;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 .footer-content p {
     width: 190px;
-    margin: auto;
     padding: 7px;
-}
-
-.footer-content ul {
-    text-align: center;
 }
 
 .list {
@@ -501,20 +443,17 @@ color: black;
 
 .list li {
     width: auto;
-    text-align: center;
     list-style-type: none;
     padding: 7px;
     position: relative;
 }
 
 .social-icons {
-    text-align: center;
     padding: 0;
 }
 
 .social-icons li {
     display: inline-block;
-    text-align: center;
     padding: 5px;
 }
 
@@ -526,6 +465,8 @@ color: black;
 a {
     text-decoration: none;
 }
+
+
 
 .list a:hover {
     color: orange;
@@ -549,25 +490,77 @@ a {
     padding: 7px;
 }
 
+
 /* Media query: tablets and larger (900px and up) */
 @media screen and (width < 900px) {
 
   /* Header */
   .nav__links{
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+   display: none;
   }
+  
+
+  .nav__logo {
+    max-width: 100px;
+  }
+
 
   .header__container {
     grid-template-columns: repeat(1,1fr);
   }
     
+
   .header__image {
     grid-area: 1/1/2/2;
   }
 
+  
+  .explore__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+
+  .class__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .class__image {
+    min-height: 500px;
+  }
+
+  .price__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* Media query: phone screens (600px and below) */
+@media screen and (max-width : 600px) {
+  
+  .explore__header {
+     flex-direction: column;  
+    }
+  
+  .explore__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }  
+
+
+  .price__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* Footer CSS */
+  .footer-content {
+  min-width: 300px;
+  margin-top: 1rem;
+  }
+
+  .footer__container {
+    margin-left: 1rem;
+  }
 
 }
