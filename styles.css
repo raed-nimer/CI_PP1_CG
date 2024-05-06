@@ -45,10 +45,10 @@ body {
 .btn {
     padding: 1rem 2rem;
     outline: none;
-    border: 1px solid #fafafa;
+    border: 1px solid white;
     font-size: 1rem;
-    color: black;
-    background-color: lightblue;
+    color: white;
+    background-color: orange;
     border-radius: 5px;
     cursor: pointer;
     transition: .2s;
