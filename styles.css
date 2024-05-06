@@ -11,6 +11,7 @@
 /* General styles */
 body {
     font-family: 'Poppins', sans-serif;
+}
 
 .header {
     background-color: #6068a6;
@@ -20,7 +21,7 @@ body {
 .section__container {
  max-width: 1285px;
  margin: auto;
- padding: 5rem 1rem;
+ padding: 2rem 1rem;
 }
 
 
@@ -66,7 +67,7 @@ body {
 
 
 .btn:hover {
-    background-color: lightcyan;
+    background-color: rgb(255, 200, 1);
 }
 
 
@@ -85,10 +86,10 @@ text-decoration: none;
 
 
 /* Styles for the navigation bar */
-nav {
+.nav {
  max-width: 1200px;
  margin: auto;
- padding: 2rem 1rem;
+ padding: 1rem;
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -114,7 +115,7 @@ nav {
 .link a {
   position: relative;
   padding-bottom: 0.73rem;
-  color: black;
+  color: white;
 }
 
 
@@ -146,26 +147,12 @@ nav {
 }
 
 
-/* Styling the decorative text */
-.header__container::before {
-    content: "GET FIT";
-    position: absolute;
-    bottom: 6rem;
-    right: 33rem;
-    font-size: 10rem;
-    font-weight: 700;
-    line-height: 7rem;
-    color: gray;
-    opacity: 0.9;
-    z-index: -1;
-}
-
 
 .header__content h4 {
     margin-bottom: 1rem;
     font-size: 1rem;
-    font-weight: 601;
-    color: black;
+    font-weight: 600;
+    color: white;
 }
 
 
@@ -187,7 +174,7 @@ nav {
 
 .header__container p {
     margin-bottom: 2rem;
-    color: black;
+    color: white;
 }
 
 
@@ -206,10 +193,7 @@ nav {
 
 /* Styles for the explore content */
 .explore__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .explore__nav {
@@ -220,7 +204,7 @@ nav {
 
 /* Creating 4 columns with equal width */
 .explore__grid {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
@@ -283,10 +267,8 @@ nav {
 
 
 .class__image .class__img-2 {
-    position: absolute;
     right: 1;
     top: 0;
-    max-width: 550px;
     border-radius: 10px;
 }
 
@@ -493,8 +475,8 @@ a {
 }
 
 
-/* Media query: tablets and larger (900px and up) */
-@media screen and (width < 900px) {
+/* Media query: tablets (900px and below) */
+@media screen and (max-width : 900px) {
 
   /* Header */
   .nav__links{
@@ -529,7 +511,7 @@ a {
 
 
   .class__image {
-    min-height: 500px;
+    min-height: 230px;
   }
 
   .price__grid {
