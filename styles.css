@@ -11,7 +11,9 @@
 /* General styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(128, 128, 128, 0.878);
+
+.header {
+    background-color: #6068a6;
 }
 
 /* Styles for the container of each section */
