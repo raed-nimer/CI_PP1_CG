@@ -193,23 +193,29 @@
 
 
     <!-- Signup Form -->
-    <section id="sign_up">
+    <section class="section__container" id="sign_up">
         <h2 class="section__header">Join Us! </h2>
         <p class="section__subheader"> Hurry up and join! Do not waste time and start your unique journey with your new family.</p>
         <br> 
-        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+        <form class="form" id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
             <h2><i class="ri-mail-add-fill"></i> Sign Up</h2>
             <p> Join us now! And get free access to all our facilities for two weeks plus 20% off your first 5 PT sessions.</p>
             <br>
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name" class="text-input" required>
-            <br>
+            <div class="form__group">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+            </div>
+
+            <div class="form__group">
             <label for="last_name">Last Name</label>
             <input type="text" name="last_name" id="last_name" class="text-input" required>
-            <br>
+            </div>
+
+            <div class="form__group">
             <label for="email_address">Email Address</label>
             <input type="email" name="email_address" id="email_address" class="text-input" required>
-            <br>
+            </div>
+
             <button type="submit" class="btn">Join Now</button>
         </form>    
     </section>    

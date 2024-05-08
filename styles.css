@@ -360,8 +360,8 @@ text-decoration: none;
 
 /* Form */
 #signup-form {
-   border: 2px solid #ccc;
-   background-color: lightblue;
+   border: 2px solid  #6068a6;
+   background-color:  #6068a6;
    width: 100%;
    max-width: 450px;
    margin: 0 auto;
@@ -459,9 +459,7 @@ color: black;
 
 a {
     text-decoration: none;
-}
-
-
+}    
 
 .list a:hover {
     color: orange;
@@ -548,6 +546,7 @@ a {
     grid-template-columns: repeat(1, 1fr);
   }
 
+ 
   /* Footer CSS */
   .footer-content {
   min-width: 300px;
