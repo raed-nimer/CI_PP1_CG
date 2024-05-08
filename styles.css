@@ -368,6 +368,10 @@ text-decoration: none;
    padding: 20px;
 }
 
+#signup-form>p {
+  color: white;
+}
+
 
 #signup-form>h2 {
     color: black;
