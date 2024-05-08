@@ -546,5 +546,21 @@ a {
   .footer__container {
     margin-left: 1rem;
   }
+  
+  .section__container {
+    padding: 1rem;
+  }
+
+  .class__content {
+    padding: 0;
+  }
+
+  .class__content p {
+    margin-bottom: 2rem;
+  }
+
+  .price__container {
+   margin-top: 4rem;
+  }
 
 }
