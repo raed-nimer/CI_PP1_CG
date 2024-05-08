@@ -374,7 +374,7 @@ text-decoration: none;
 
 
 #signup-form>h2 {
-    color: black;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -382,12 +382,19 @@ text-decoration: none;
 .text-input {
     background: transparent;
     color: #fafafa;
-    width: 50%;
-    height: 25px;
-    margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    padding: 0 5px;
+    padding: 8px 12px;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.form__group {
+    margin-bottom: 14px;
+}
+
+.form__group>label {
+    color: white;
 }
 
 
