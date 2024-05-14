@@ -323,7 +323,7 @@ a {
     margin-bottom: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
-    color: black;
+    color: white;
 }
 
 .price__card h3 {
@@ -331,19 +331,19 @@ a {
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 600;
-    color: black;
-    border-bottom: 2px solid black;
+    color: white;
+    border-bottom: 2px solid white;
 }
 
 .price__card p {
     margin-bottom: 0.75rem;
-    color: black;
+    color: white;
 }
 
 .price__card p i {
     margin-right: .5rem;
     font-size: 1.3rem;
-    color: orange;
+    color: rgb(255 160 1);
 }
 
 .price__btn {
