@@ -11,6 +11,7 @@
 /* General styles */
 body {
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .header {
@@ -56,7 +57,7 @@ a {
     border: 1px solid white;
     font-size: 1rem;
     color: white;
-    background-color: orange;
+    background-color: rgb(255 160 1);
     border-radius: 5px;
     cursor: pointer;
     transition: .2s;
@@ -400,9 +401,8 @@ a {
 
 /* Footer */
 .footer {
-    background: lightblue;
+    background: #6068a6;
     padding-top: 50px;
-    border: 2px solid #fafafa;
     margin-top: 100px;
 }
 
@@ -434,7 +434,7 @@ a {
 }
 
 .list a:visited {
-    color: black;
+    color: white;
 }
 
 .list li {
@@ -454,17 +454,17 @@ a {
 }
 
 .social-icons i {
-    color: black;
+    color: white;
     font-size: 25px;
 }
 
 
 .list a:hover {
-    color: orange;
+    color: rgb(255 160 1);
 }
 
 .social-icons i:hover {
-    color: orange;
+    color: rgb(255 160 1);
 }
 
 .bottom-bar {
