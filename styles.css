@@ -347,16 +347,16 @@ a {
 }
 
 .price__btn {
-    color: black;
-    background-color: lightcyan;
-    border: 1px solid black;
+    color: white;
+    background-color: rgb(255 160 1);
+    border: 1px solid white;
 }
 
 /* styling the buttons with Hover */
 .price__btn:hover {
     color: white;
-    background-color: orange;
-    border: 1px solid orange;
+    background-color: rgb(255, 200, 1);
+    border: 1px solid rgb(255, 200, 1);
 }
 
 /* Form */
