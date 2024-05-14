@@ -212,15 +212,15 @@ a {
 
 .explore__card {
     padding: 1rem;
-    background-color: lightblue;
+    background-color: #6068a6;
     border: 2px solid transparent;
     border-radius: 10px;
     transition: 0.3s;
 }
 
 .explore__card:hover {
-    background-color: lightcyan;
-    border-color: lightblue;
+    background-color: #8189c1;
+    border-color: #6068a6;
 }
 
 /* Styling the explore card logo */
