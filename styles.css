@@ -229,8 +229,8 @@ a {
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
-    color: black;
-    background-color: lightblue;
+    color: white;
+    background-color: rgb(255 160 1);
     border-radius: 5px;
 }
 
@@ -238,21 +238,22 @@ a {
     margin-bottom: 0.5rem;
     font-size: 1.3rem;
     font-weight: 700;
-    color: black;
+    color: white;
 }
 
 .explore__card p {
     margin-bottom: 1rem;
+    color: white;
 }
 
 .explore__card a {
-    color: black;
-    transition: 0.4s;
+    color: white;
+    transition: 0.2s;
 }
 
 /* Adding Hover styles to the buttons */
 .explore__card a:hover {
-    color: orange;
+    color: rgb(255, 200, 1);
 }
 
 .class__container {
