@@ -302,7 +302,7 @@ a {
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: #6068a6;
     border: 2px solid transparent;
     border-radius: 9px;
     transition: 0.2;
@@ -310,8 +310,8 @@ a {
 
 /* Adding Hover to the card */
 .price__card:hover {
-    background-color: lightcyan;
-    border-color: lightblue;
+    background-color: #8189c1;
+    border-color: #6068a6;
 }
 
 .price__card__content {
