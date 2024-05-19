@@ -1,2 +1,2 @@
-[Responsiveness View](assets/responsiveness-view.png)
+![Responsiveness View](assets/responsiveness-view.png)
 
