@@ -1,1 +1,2 @@
-[/workspace/CI_PP1_CG/responsiveness-view.png](https://github.com/raed-nimer/CI_PP1_CG/blob/6f56b96926fdcbc63dca79e7fcacf297d23d9252/assets/responsiveness-view.png)
+[Responsiveness View](assets/responsiveness-view.png)
+
