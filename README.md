@@ -5,4 +5,8 @@
 At Coders Gym, our top priority is to provide our clients with a safe and nurturing environment where they can relax both mentally and physically. We believe that by taking care of your well-being, you can recharge and code better. So come join us at Coders Gym, where you can find a supportive community of like-minded individuals who understand the unique demands of coding and are committed to helping you thrive. </p>
 
 ![Responsiveness View](assets/responsiveness-view.png)
-
+![Navbar] (assets/navbar-view.png)
+![Navbar] (assets/navigation-bar-view.png)
+![Navbar] (assets/navigation-bar-view.png)
+![Navbar] (assets/navigation-bar-view.png)
+![Navbar] (assets/navigation-bar-view.png)
