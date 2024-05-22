@@ -351,6 +351,7 @@ a {
     color: white;
     background-color: rgb(255 160 1);
     border: 1px solid white;
+    width: 100%;
 }
 
 /* styling the buttons with Hover */
