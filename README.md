@@ -26,3 +26,19 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 10 chosen full body exercises done at maximum effort.</p>
 
 ![The Box](assets/hot-box-view.png)
+
+
+
+### Validator Testing 
+
+- HTML
+  - Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fraed-nimer.github.io%2FCI_PP1_CG%2F). Mainly typing mistakes and tags wrapping issues. All errors were immediately fixed. 
+- CSS
+  - Some errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css). All errors were immediately fixed. 
+  <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
