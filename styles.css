@@ -349,6 +349,7 @@ a {
 
 .price__btn {
     color: white;
+    text-align: center;
     background-color: rgb(255 160 1);
     border: 1px solid white;
     width: 100%;
