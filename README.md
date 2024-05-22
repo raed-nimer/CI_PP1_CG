@@ -7,7 +7,7 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ![Responsiveness View](assets/responsiveness-view.png)
 
 ### Navbar
-<p>The navigation bar includes the gym logo, four links to different sections of the page sush as program, pricing, sign up form and contact. There's also a "join Now" button that takes the user to the sign up form. </p>
+<p>The navigation bar includes the gym logo, four links to different sections of the page that are program, pricing, sign up form and contact. There's also a "join Now" button that takes the user to the sign up form. </p>
 
 ![Navbar](assets/navbar-view.png)
 
@@ -17,17 +17,21 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ![Hero image](assets/header-imge-view.png)
 
 ### Our Programs
-<p>This section talks about what qualities CG has to offer its members such as weight lifting sessions, meditation classes, fat loss programs, diet plans and also why each program was chosen.</p>
+<p>This section talks about what qualities CG has to offer its members, such as weight lifting sessions, meditation classes, fat loss programs, diet plans and also why each program was chosen.</p>
 
 ![Our Programs](assets/our-programs-view.png)
 
 ### The Hot Box
-<p>This is "The hot box" which is a part of the "Our programs" section talks about CG's special group workout class that is held four times a week and it iclude all the programs above plus circuit style training. 
+<p>This is "The hot box" which is a part of the "Our programs" section, talks about CG's special group workout class that is held four times a week and it iclude all the programs above plus circuit style training. 
 10 chosen full body exercises done at maximum effort.</p>
 
 ![The Box](assets/hot-box-view.png)
 
 
+## Testing 
+
+This website was tested on as many different devices as I was able to find. Including a macbook and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions are listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
+Also made sure that the website is clear, easy to use and valuable for the user.
 
 ### Validator Testing 
 

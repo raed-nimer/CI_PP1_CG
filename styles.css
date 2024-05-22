@@ -303,7 +303,7 @@ a {
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-    background-color: #6068a6;
+    background-color: #6068a6; 
     border: 2px solid transparent;
     border-radius: 9px;
     transition: 0.2s;
@@ -435,7 +435,7 @@ a {
     padding: 0;
 }
 
-.list a:visited {
+.list a {
     color: white;
 }
 
