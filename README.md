@@ -30,6 +30,19 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ![The Box](assets/hot-box-view.png)
 
 
+### Price Cards
+<p>Pricing section consists of three different cards, each card contains a different package such as basic, premium and diamond package: </p>
+
+- The basic package provides the member with access to all of CG gym facilities and a hoodie.
+
+- The premium package provides the member with access to all of CG gym facilities, hoodie and access to group training. 
+
+- The diamond package provides the member with all of the above plus daily workout schedule and personal sessions with a proffessional trainer. 
+
+![Price cards](assets/price-card-view.png)
+
+
+
 ## Testing 
 
 This website was tested on as many different devices as I was able to find. Including a macbook and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions are listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
