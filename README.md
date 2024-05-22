@@ -5,6 +5,8 @@
 At Coders Gym, our top priority is to provide our clients with a safe and nurturing environment where they can relax both mentally and physically. We believe that by taking care of your well-being, you can recharge and code better. So come join us at Coders Gym, where you can find a supportive community of like-minded individuals who understand the unique demands of coding and are committed to helping you thrive. </p>
 
 ![Responsiveness View](assets/responsiveness-view.png)
+[Live webpage](https://raed-nimer.github.io/CI_PP1_CG/)
+
 
 ### Navbar
 <p>The navigation bar includes the gym logo, four links to different sections of the page that are program, pricing, sign up form and contact. There's also a "join Now" button that takes the user to the sign up form. </p>
