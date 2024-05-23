@@ -41,7 +41,10 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 
 ![Price cards](assets/price-card-view.png)
 
+### Signup Form
+<p>The signup form is where you can join the gym community to stay updated on the latest news like changes in opening hours, renovations, outdoor group workouts, and summer trips. It's your ticket to be in the loop and never miss out on exciting gym activities and events. </p>
 
+![Signup](assets/signup-form-view.png)
 
 ## Testing 
 
