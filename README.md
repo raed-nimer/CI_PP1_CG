@@ -35,7 +35,7 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ### Our Programs
 <p>This section talks about what qualities CG has to offer its members, such as weight lifting sessions, meditation classes, fat loss programs, diet plans and also why each program was chosen.</p>
 
-![Our Programs](assets/our-programs-view.png)
+![Our Programs](assets/our-programs-view2.png)
 
 ### The Hot Box
 <p>This is "The hot box" which is a part of the "Our programs" section, talks about CG's special group workout class that is held four times a week and it iclude all the programs above plus circuit style training. 
@@ -138,3 +138,6 @@ The steps to deploy are as follows:
 ### Comments
 I feel like creating this project taught me more than the content of the course, not only to code but also to look for solutions.
 One of the biggest lessons I will take with me on future projects is to not give up or get discouraged when things don't go my way. <br>
+
+
+[def]: assets/our-programs-view2.png
