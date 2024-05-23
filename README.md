@@ -7,6 +7,20 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ![Responsiveness View](assets/responsiveness-view.png)
 [Live webpage](https://raed-nimer.github.io/CI_PP1_CG/)
 
+# User Stories
+
+### First time user objectives 
+- As a first time user, when I open the page I want to be sure that I am on the right page. 
+- As a first time user, I want to be able to navigate easily through the website. 
+- As a first time user, I want to be able to see what this gym is all about, learn more and contact them. 
+- As a first time user, I want to able to navigate through the website on a mobile device.
+- As a first time user, I want to be able to find the gym location. 
+
+### Returning user objectives
+- As a returning user, I would like to navigate to the right section quickly and easily. 
+- As a returning user, I want to be able to find the price lists for the packages offered.
+- As a returning user, I want to be able to sign up to the gym community.
+- As a returning user, I want to be able to access the gym's social media pages. 
 
 ### Navbar
 <p>The navigation bar has the gym logo and four links to various page sections such as "Program", "Pricing", "Sign up" and "Contact". When you hover over a link, it will be highlighted with a white underline. Additionally, there's a "Join Now" button that directs users to the sign-up form. </p>
@@ -58,6 +72,21 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ![Footer](assets/footer-view.png)
 
 
+## Future Features 
+- Implementing hamburger menu for responsive navbar, for mobile screens using javascript. 
+- Implementing registration system for the gym members. 
+
+
+## Technologies and languages 
+- [HTML](https://web.dev/learn/html/overview/) was used to provide structure for the project
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) was used to style the HTML elements
+- [GitHub](https://github.com/) is the platform used to host the code for the website
+- [Git](https://git-scm.com/) was used as a version control software to commit and push the code to the GitHub repository
+- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) was used during testing, debugging and making the website responsive
+- [W3C HTML Validator](https://validator.w3.org/) was used to check for errors in the HTML code
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to check for errors in the CSS code
+
+
 ## Testing 
 
 This website was tested on as many different devices as I was able to find. Including a macbook and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions are listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
@@ -76,3 +105,36 @@ Also made sure that the website is clear, easy to use and valuable for the user.
             alt="Valid CSS!" />
     </a>
 </p>
+
+## Unfixed Bugs
+
+After thorough testing with various online tools and my limited testing with different devices and browsers, all known warnings and errors returned were resolved.
+
+
+## Deployment
+
+### Deploy with GitHub Pages.
+
+The steps to deploy are as follows:
+- Navigate to the [repository](https://github.com/raed-nimer/CI_PP1_CG)
+- Click on Settings on the top.
+- Click on Pages on the menu on the left which will open GitHub Pages window.
+- From the drop down menu under source select deploy from branch.
+- From the drop down menu under branch select main, this tells GitHub which branch to use for the deployment. Click Save.
+- The page should refresh and the deployment link should appear.
+
+## Credits
+
+ 
+### Media 
+- Hero Image - [Freepik](https://www.freepik.com/free-photo/shirtless-male-bodybuilder-holding-dumbbells_8794728.htm)
+- Logo image - [Freepik](https://www.freepik.com/search?format=search&last_filter=query&last_value=gym+logo+black+and+white&query=gym+logo+black+and+white)
+- Hot box section image - [Freepik](https://www.freepik.com/free-photo/people-working-out-indoors-together-with-dumbbells_20287182.htm#from_view=detail_alsolike)
+
+### Acknowledgements
+- A huge Thank You to my mentor Mo shami for all the advices and resources.
+- The Slack Community for their support.
+
+### Comments
+I feel like creating this project taught me more than the content of the course, not only to code but also to look for solutions.
+One of the biggest lessons I will take with me on future projects is to not give up or get discouraged when things don't go my way. <br>
