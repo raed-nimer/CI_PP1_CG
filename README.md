@@ -9,12 +9,12 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 
 
 ### Navbar
-<p>The navigation bar includes the gym logo, four links to different sections of the page that are program, pricing, sign up form and contact. There's also a "join Now" button that takes the user to the sign up form. </p>
+<p>The navigation bar has the gym logo and four links to various page sections such as "Program", "Pricing", "Sign up" and "Contact". When you hover over a link, it will be highlighted with a white underline. Additionally, there's a "Join Now" button that directs users to the sign-up form. </p>
 
 ![Navbar](assets/navbar-view.png)
 
 ### Home
-<p>Home section includes a hero image, a brief introduction to the website and what it does and a "Get Started" button that takes the user to the sign up form. </p>
+<p>Home section includes a hero image, a brief introduction to the website and what it does and a "Get Started" button that takes the user to the sign-up form. </p>
 
 ![Hero image](assets/header-imge-view.png)
 
@@ -41,10 +41,22 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 
 ![Price cards](assets/price-card-view.png)
 
-### Signup Form
-<p>The signup form is where you can join the gym community to stay updated on the latest news like changes in opening hours, renovations, outdoor group workouts, and summer trips. It's your ticket to be in the loop and never miss out on exciting gym activities and events. </p>
+### Sign-up Form
+<p>The sign-up form is where the user can join the gym community to stay updated on the latest news like changes in opening hours, renovations, outdoor group workouts, and summer trips. It's the user ticket to be in the loop and never miss out on exciting gym activities and events. </p>
 
-![Signup](assets/signup-form-view.png)
+![Sign-up](assets/signup-form-view.png)
+
+### Footer
+<p>The footer consists of three different sections: </p>
+
+- Contact section provides the user clear contact information and the gym's location. 
+
+- Quick links section consists of four links which are "Home", "Program", "Pricing" and "Sign Up". Each section takes the user to different part of the page. 
+
+- The social media section consist of social media icons which on hover become colorful and the mouse turn into a pointer. The links open in a new tab when clicked.
+
+![Footer](assets/footer-view.png)
+
 
 ## Testing 
 
