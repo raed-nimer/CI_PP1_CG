@@ -4,7 +4,7 @@
 
 At Coders Gym, our top priority is to provide our clients with a safe and nurturing environment where they can relax both mentally and physically. We believe that by taking care of your well-being, you can recharge and code better. So come join us at Coders Gym, where you can find a supportive community of like-minded individuals who understand the unique demands of coding and are committed to helping you thrive. </p>
 
-![Responsiveness View](assets/responsiveness-view.png)
+![Responsiveness View](assets/responsive-view.png)
 [Live webpage](https://raed-nimer.github.io/CI_PP1_CG/)
 
 # User Stories
@@ -30,7 +30,7 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ### Home
 <p>Home section includes a hero image, a brief introduction to the website and what it does and a "Get Started" button that takes the user to the sign-up form. </p>
 
-![Hero image](assets/header-imge-view.png)
+![Hero image](assets/header-image-view.png)
 
 ### Our Programs
 <p>This section talks about what qualities CG has to offer its members, such as weight lifting sessions, meditation classes, fat loss programs, diet plans and also why each program was chosen.</p>
