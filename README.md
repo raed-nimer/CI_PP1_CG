@@ -7,6 +7,33 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ![Responsiveness View](assets/responsive-view.png)
 [Live webpage](https://raed-nimer.github.io/CI_PP1_CG/)
 
+# Table of contents
+
+- [Coders Gym](#coders-gym)
+- [User Stories](#user-stories)
+    - [First time user objectives](#first-time-user-objectives)
+    - [Returning user objectives](#returning-user-objectives)
+- [features](#features)
+    - [Navbar](#navbar)
+    - [Home](#home)
+    - [Our Programs](#our-programs)
+    - [The Hot Box](#the-hot-box)
+    - [Price Cards](#price-cards)
+    - [Sign-up Form](#sign-up-form)
+    - [Footer](#footer)
+  - [Future Features](#future-features)
+  - [Technologies and languages](#technologies-and-languages)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+  - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+    - [Deploy with GitHub Pages.](#deploy-with-github-pages)
+  - [Credits](#credits)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
+      - [Youtube channels that was in great help for my projcet are:](#youtube-channels-that-was-in-great-help-for-my-projcet-are)
+    - [Comments](#comments)
+
 # User Stories
 
 ### First time user objectives 
@@ -21,6 +48,9 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 - As a returning user, I want to be able to find the price lists for the packages offered.
 - As a returning user, I want to be able to sign up to the gym community.
 - As a returning user, I want to be able to access the gym's social media pages. 
+
+
+# features
 
 ### Navbar
 <p>The navigation bar has the gym logo and four links to various page sections such as "Program", "Pricing", "Sign up" and "Contact". When you hover over a link, it will be highlighted with a white underline. Additionally, there's a "Join Now" button that directs users to the sign-up form. </p>
@@ -92,6 +122,7 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 This website was tested on as many different devices as I was able to find. Including a macbook and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions are listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
 Also made sure that the website is clear, easy to use and valuable for the user.
 
+
 ### Validator Testing 
 
 - HTML
@@ -135,11 +166,16 @@ The steps to deploy are as follows:
 - A huge Thank You to my mentor Mo shami for all the advices and resources.
 - The Slack Community for their support.
 #### Youtube channels that was in great help for my projcet are: 
-- webDev Campus
-- CODE with sufyan shaikh
-- Bedimcode
-- Web Design Mastery
-- codewithsadee 
+
+- [webDev Campus](https://www.youtube.com/@WebDevCampus)
+
+- [CODE with sufyan shaikh](https://www.youtube.com/@codewithsufyanshaikh6770)
+
+- [ Bedimcode](https://www.youtube.com/@Bedimcode)
+
+- [Web Design Mastery](https://www.youtube.com/@webdesignmastery23)
+
+- [codewithsadee](https://www.youtube.com/@codewithsadee) 
 
 
 
@@ -147,5 +183,3 @@ The steps to deploy are as follows:
 I feel like creating this project taught me more than the content of the course, not only to code but also to look for solutions.
 One of the biggest lessons I will take with me on future projects is to not give up or get discouraged when things don't go my way. <br>
 
-
-[def]: assets/our-programs-view2.png
