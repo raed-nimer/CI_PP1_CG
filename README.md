@@ -37,17 +37,17 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 # User Stories
 
 ### First time user objectives 
-- As a first time user, when I open the page I want to be sure that I am on the right page. 
-- As a first time user, I want to be able to navigate easily through the website. 
-- As a first time user, I want to be able to see what this gym is all about, learn more and contact them. 
-- As a first time user, I want to able to navigate through the website on a mobile device.
-- As a first time user, I want to be able to find the gym location. 
+1. As a first time user, when I open the page I want to be sure that I am on the right page. 
+2. As a first time user, I want to be able to navigate easily through the website. 
+3. As a first time user, I want to be able to see what this gym is all about, learn more and contact them. 
+4. As a first time user, I want to able to navigate through the website on a mobile device.
+5. As a first time user, I want to be able to find the gym location. 
 
 ### Returning user objectives
-- As a returning user, I would like to navigate to the right section quickly and easily. 
-- As a returning user, I want to be able to find the price lists for the packages offered.
-- As a returning user, I want to be able to sign up to the gym community.
-- As a returning user, I want to be able to access the gym's social media pages. 
+6. As a returning user, I would like to navigate to the right section quickly and easily. 
+7. As a returning user, I want to be able to find the price lists for the packages offered.
+8. As a returning user, I want to be able to sign up to the gym community.
+9. As a returning user, I want to be able to access the gym's social media pages. 
 
 
 # features
