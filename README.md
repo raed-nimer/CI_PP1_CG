@@ -134,6 +134,12 @@ The steps to deploy are as follows:
 ### Acknowledgements
 - A huge Thank You to my mentor Mo shami for all the advices and resources.
 - The Slack Community for their support.
+- Youtube channels that was in great help for my projcet are: 
+- webDev Campus
+- CODE with sufyan shaikh
+- Bedimcode
+- codewithsadee 
+
 
 ### Comments
 I feel like creating this project taught me more than the content of the course, not only to code but also to look for solutions.
