@@ -123,11 +123,12 @@ This website was tested on as many different devices as I was able to find. Incl
 Also made sure that the website is clear, easy to use and valuable for the user.
 
 
-### Validator Testing 
+## Validation 
 
-- HTML
+### HTML Validation
   - Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fraed-nimer.github.io%2FCI_PP1_CG%2F). Mainly typing mistakes and tags wrapping issues. All errors were immediately fixed. 
-- CSS
+
+### CSS Validation
   - Some errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fraed-nimer.github.io%2FCI_PP1_CG%2F%23home&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). All errors were immediately fixed. 
   <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
@@ -136,6 +137,10 @@ Also made sure that the website is clear, easy to use and valuable for the user.
             alt="Valid CSS!" />
     </a>
 </p>
+
+### Performance
+
+![light house](assets/lighthouse-performance.png)
 
 ## Unfixed Bugs
 

@@ -52,12 +52,12 @@ a {
 
 /* Styling the buttons */
 .btn {
-    padding: 1rem 2rem;
+    padding: .7rem 1.6rem;
     outline: none;
-    border: 1px solid white;
-    font-size: 1rem;
+    border: 1px solid #9f03ff;
+    font-size: 1.1rem;
     color: white;
-    background-color: rgb(255 160 1);
+    background-color: #6a01ab;
     border-radius: 5px;
     cursor: pointer;
     transition: .2s;
@@ -72,8 +72,8 @@ a {
 
 
 .btn:hover {
-    background-color: rgb(255, 200, 1);
-    border: 1px solid rgb(255, 200, 1);
+    background-color: #4d0082;
+    border: 1px solid #4d0082;
 }
 
 
@@ -222,7 +222,7 @@ a {
     margin-bottom: 1rem;
     font-size: 1.75rem;
     color: white;
-    background-color: rgb(255 160 1);
+    background-color: #6a01ab;
     border-radius: 5px;
 }
 
@@ -245,7 +245,7 @@ a {
 
 /* Adding Hover styles to the buttons */
 .explore__card a:hover {
-    color: rgb(255, 200, 1);
+    color: #6a01ab;
 }
 
 .class__container {
@@ -335,22 +335,22 @@ a {
 .price__card p i {
     margin-right: .5rem;
     font-size: 1.3rem;
-    color: rgb(255 160 1);
+    color: #6a01ab;
 }
 
 .price__btn {
     color: white;
     text-align: center;
-    background-color: rgb(255 160 1);
-    border: 1px solid white;
+    background-color: #6a01ab;
+    border: 1px solid #56008b;
     width: 100%;
 }
 
 /* styling the buttons with Hover */
 .price__btn:hover {
     color: white;
-    background-color: rgb(255, 200, 1);
-    border: 1px solid rgb(255, 200, 1);
+    background-color: #4d0082;
+    border: 1px solid #4d0082;
 }
 
 /* Form */
@@ -453,11 +453,11 @@ a {
 
 
 .list a:hover {
-    color: rgb(255 160 1);
+    color: #6a01ab;
 }
 
 .social-icons i:hover {
-    color: rgb(255 160 1);
+    color: #6a01ab;
 }
 
 .bottom-bar {
