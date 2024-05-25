@@ -126,10 +126,12 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 ## Validation 
 
 ### HTML Validation
-  - Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fraed-nimer.github.io%2FCI_PP1_CG%2F). Mainly typing mistakes and tags wrapping issues. All errors were immediately fixed. 
+
+- Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fraed-nimer.github.io%2FCI_PP1_CG%2F). Mainly typing mistakes and tags wrapping issues. All errors were immediately fixed. 
 
 ### CSS Validation
-  - Some errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fraed-nimer.github.io%2FCI_PP1_CG%2F%23home&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). All errors were immediately fixed. 
+
+- Some errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fraed-nimer.github.io%2FCI_PP1_CG%2F%23home&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). All errors were immediately fixed. 
   <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -138,9 +140,18 @@ Also made sure that the website is clear, easy to use and valuable for the user.
     </a>
 </p>
 
+### Accessibility
+
+The WAVE webAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards.
+
+![accessibility test](assets/accessibility-test.png)
+
 ### Performance
 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
 ![light house](assets/lighthouse-performance.png)
+
+
 
 
 ### Testing user stories
