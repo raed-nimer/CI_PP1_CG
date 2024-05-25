@@ -37,17 +37,17 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 # User Stories
 
 ### First time user objectives 
-1. As a first time user, when I open the page I want to be sure that I am on the right page. 
-2. As a first time user, I want to be able to navigate easily through the website. 
+
+1. As a first time user, I want to be able to navigate easily through the website. 
+2. As a first time user, I want to be able to sign up to the gym community.
 3. As a first time user, I want to be able to see what this gym is all about, learn more and contact them. 
-4. As a first time user, I want to able to navigate through the website on a mobile device.
+4. As a first time user, I want to able to see the programs offered by the Gym.
 5. As a first time user, I want to be able to find the gym location. 
 
 ### Returning user objectives
-6. As a returning user, I would like to navigate to the right section quickly and easily. 
-7. As a returning user, I want to be able to find the price lists for the packages offered.
-8. As a returning user, I want to be able to sign up to the gym community.
-9. As a returning user, I want to be able to access the gym's social media pages. 
+6. As a returning user, I want to be able to find the price lists for the packages offered.
+7. As a returning user, I want to be able to find a phone contact to get more information.
+8. As a returning user, I want to be able to access the gym's social media pages. 
 
 
 # features
@@ -141,6 +141,59 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 ### Performance
 
 ![light house](assets/lighthouse-performance.png)
+
+
+### Testing user stories
+
+1. As a first time user, I want to be able to navigate easily through the website. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navbar section | Navigate to the Navbar section | User can navigate to every section of the website | Works as expected |
+
+2. As a first time user, I want to be able to sign up to the gym community.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Join us Section | Navigate to the Join Us section | User can signup or book a session through the form | Works as expected |
+
+3. As a first time user, I want to be able to see what this gym is all about, learn more and contact them. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero section | Navigate to the Hero Section | Find the description of the gym | Works as expected |
+| Contact Us Section | Navigate to the footer - Contact Us | Find the contact details of the gym | Works as expected |
+
+4. As a first time user, I want to able to see the programs offered by the Gym.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Programs section | Navigate to the Our Programs Section | Find the programs offered by the gym | Works as expected |
+| The Hot Box section | Navigate to The Hot Box Section | Find more details about the gym | Works as expected |
+
+5. As a first time user, I want to be able to find the gym location. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - Contact Us section | Scroll down to the footer | Find the address of the gym | Works as expected |
+
+6. As a returning user, I want to be able to find the price lists for the packages offered.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Price Lists section | Navigate to Our Price Lists section | Find the details of the packages along with their prices | Works as expected |
+
+7. As a returning user, I want to be able to find a phone contact to get more information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - Contact Us section | Scroll down to the footer | Find the contact number of the gym | Works as expected |
+
+8. As a returning user, I want to be able to access the gym's social media pages. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - Follow us section | Scroll down to the footer | Find and click on social media links | Works as expected |
 
 ## Unfixed Bugs
 
