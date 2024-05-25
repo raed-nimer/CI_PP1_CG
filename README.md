@@ -4,12 +4,13 @@
 
 At Coders Gym, our top priority is to provide our clients with a safe and nurturing environment where they can relax both mentally and physically. We believe that by taking care of your well-being, you can recharge and code better. So come join us at Coders Gym, where you can find a supportive community of like-minded individuals who understand the unique demands of coding and are committed to helping you thrive. </p>
 
-![Responsiveness View](assets/responsive-view.png)
+![Responsiveness View](assets/resposive-look.png)
 [Live webpage](https://raed-nimer.github.io/CI_PP1_CG/)
 
 # Table of contents
 
 - [Coders Gym](#coders-gym)
+- [Table of contents](#table-of-contents)
 - [User Stories](#user-stories)
     - [First time user objectives](#first-time-user-objectives)
     - [Returning user objectives](#returning-user-objectives)
@@ -23,16 +24,22 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
     - [Footer](#footer)
   - [Future Features](#future-features)
   - [Technologies and languages](#technologies-and-languages)
-  - [Testing](#testing)
-    - [Validator Testing](#validator-testing)
+  - [Validation](#validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Performance testing on different devices](#performance-testing-on-different-devices)
+    - [Browser compatibility](#browser-compatibility)
+    - [Testing user stories](#testing-user-stories)
   - [Unfixed Bugs](#unfixed-bugs)
   - [Deployment](#deployment)
     - [Deploy with GitHub Pages.](#deploy-with-github-pages)
   - [Credits](#credits)
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
-      - [Youtube channels that was in great help for my projcet are:](#youtube-channels-that-was-in-great-help-for-my-projcet-are)
     - [Comments](#comments)
+
 
 # User Stories
 
@@ -55,23 +62,23 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ### Navbar
 <p>The navigation bar has the gym logo and four links to various page sections such as "Program", "Pricing", "Sign up" and "Contact". When you hover over a link, it will be highlighted with a white underline. Additionally, there's a "Join Now" button that directs users to the sign-up form. </p>
 
-![Navbar](assets/navbar-view.png)
+![Navbar](assets/navbar-look.png)
 
 ### Home
 <p>Home section includes a hero image, a brief introduction to the website and what it does and a "Get Started" button that takes the user to the sign-up form. </p>
 
-![Hero image](assets/header-image-view.png)
+![Hero image](assets/hero-section-look.png)
 
 ### Our Programs
 <p>This section talks about what qualities CG has to offer its members, such as weight lifting sessions, meditation classes, fat loss programs, diet plans and also why each program was chosen.</p>
 
-![Our Programs](assets/our-programs-view2.png)
+![Our Programs](assets/our-programs-look.png)
 
 ### The Hot Box
 <p>This is "The hot box" which is a part of the "Our programs" section, talks about CG's special group workout class that is held four times a week and it iclude all the programs above plus circuit style training. 
 10 chosen full body exercises done at maximum effort.</p>
 
-![The Box](assets/hot-box-view.png)
+![The Box](assets/hot-box-look.png)
 
 
 ### Price Cards
@@ -83,12 +90,12 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 
 - The diamond package provides the member with all of the above plus daily workout schedule and personal sessions with a proffessional trainer. 
 
-![Price cards](assets/price-card-view.png)
+![Price cards](assets/price-card-look.png)
 
 ### Sign-up Form
 <p>The sign-up form is where the user can join the gym community to stay updated on the latest news like changes in opening hours, renovations, outdoor group workouts, and summer trips. It's the user ticket to be in the loop and never miss out on exciting gym activities and events. </p>
 
-![Sign-up](assets/signup-form-view.png)
+![Sign-up](assets/signup-form-look.png)
 
 ### Footer
 <p>The footer consists of three different sections: </p>
@@ -115,12 +122,6 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) was used during testing, debugging and making the website responsive
 - [W3C HTML Validator](https://validator.w3.org/) was used to check for errors in the HTML code
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to check for errors in the CSS code
-
-
-## Testing 
-
-This website was tested on as many different devices as I was able to find. Including a macbook and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions are listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
-Also made sure that the website is clear, easy to use and valuable for the user.
 
 
 ## Validation 
@@ -151,8 +152,20 @@ The WAVE webAIM web accessibility evaluation tool was used to ensure the website
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
 ![light house](assets/lighthouse-performance.png)
 
+### Performance testing on different devices
 
+This website was tested on the following devices: 
+- Macbook  
+- desktop pc 
+- IPad 6th and 10th generation  
+- iPhone SE, iPhone 12 and iPhone 13.
 
+### Browser compatibility 
+
+The browser was tested on the following browser:
+- Safari
+- Google Chrome 
+- Microsoft Edge
 
 ### Testing user stories
 
@@ -232,8 +245,9 @@ The steps to deploy are as follows:
 - Hot box section image - [Freepik](https://www.freepik.com/free-photo/people-working-out-indoors-together-with-dumbbells_20287182.htm#from_view=detail_alsolike)
 
 ### Acknowledgements
-- A huge Thank You to my mentor Mo shami for all the advices and resources.
+- A Thank You to my mentor Mo shami for the advices and feedback.
 - The Slack Community for their support.
+
 #### Youtube channels that was in great help for my projcet are: 
 
 - [webDev Campus](https://www.youtube.com/@WebDevCampus)
@@ -245,7 +259,6 @@ The steps to deploy are as follows:
 - [Web Design Mastery](https://www.youtube.com/@webdesignmastery23)
 
 - [codewithsadee](https://www.youtube.com/@codewithsadee) 
-
 
 
 ### Comments
