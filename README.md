@@ -4,7 +4,7 @@
 
 At Coders Gym, our top priority is to provide our clients with a safe and nurturing environment where they can relax both mentally and physically. We believe that by taking care of your well-being, you can recharge and code better. So come join us at Coders Gym, where you can find a supportive community of like-minded individuals who understand the unique demands of coding and are committed to helping you thrive. </p>
 
-![Responsiveness View](assets/resposive-look.png)
+![Responsiveness View](assets/images/resposive-look.png)
 [Live webpage](https://raed-nimer.github.io/CI_PP1_CG/)
 
 # Table of contents
@@ -62,23 +62,23 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 ### Navbar
 <p>The navigation bar has the gym logo and four links to various page sections such as "Program", "Pricing", "Sign up" and "Contact". When you hover over a link, it will be highlighted with a white underline. Additionally, there's a "Join Now" button that directs users to the sign-up form. </p>
 
-![Navbar](assets/navbar-look.png)
+![Navbar](assets/images/navbar-look.png)
 
 ### Home
 <p>Home section includes a hero image, a brief introduction to the website and what it does and a "Get Started" button that takes the user to the sign-up form. </p>
 
-![Hero image](assets/hero-section-look.png)
+![Hero image](assets/images/hero-section-look.png)
 
 ### Our Programs
 <p>This section talks about what qualities CG has to offer its members, such as weight lifting sessions, meditation classes, fat loss programs, diet plans and also why each program was chosen.</p>
 
-![Our Programs](assets/our-programs-look.png)
+![Our Programs](assets/images/our-programs-look.png)
 
 ### The Hot Box
 <p>This is "The hot box" which is a part of the "Our programs" section, talks about CG's special group workout class that is held four times a week and it iclude all the programs above plus circuit style training. 
 10 chosen full body exercises done at maximum effort.</p>
 
-![The Box](assets/hot-box-look.png)
+![The Box](assets/images/hot-box-look.png)
 
 
 ### Price Cards
@@ -90,12 +90,12 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 
 - The diamond package provides the member with all of the above plus daily workout schedule and personal sessions with a proffessional trainer. 
 
-![Price cards](assets/price-card-look.png)
+![Price cards](assets/images/price-card-look.png)
 
 ### Sign-up Form
 <p>The sign-up form is where the user can join the gym community to stay updated on the latest news like changes in opening hours, renovations, outdoor group workouts, and summer trips. It's the user ticket to be in the loop and never miss out on exciting gym activities and events. </p>
 
-![Sign-up](assets/signup-form-look.png)
+![Sign-up](assets/images/signup-form-look.png)
 
 ### Footer
 <p>The footer consists of three different sections: </p>
@@ -106,7 +106,7 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 
 - The social media section consist of social media icons which on hover become colorful and the mouse turn into a pointer. The links open in a new tab when clicked.
 
-![Footer](assets/footer-view.png)
+![Footer](assets/images/footer-view.png)
 
 
 ## Future Features 
@@ -145,12 +145,12 @@ At Coders Gym, our top priority is to provide our clients with a safe and nurtur
 
 The WAVE webAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards.
 
-![accessibility test](assets/accessibility-test.png)
+![accessibility test](assets/images/accessibility-test.png)
 
 ### Performance
 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
-![light house](assets/lighthouse-performance.png)
+![light house](assets/images/lighthouse-performance.png)
 
 ### Performance testing on different devices
 
