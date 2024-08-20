@@ -245,7 +245,6 @@ The steps to deploy are as follows:
 - Hot box section image - [Freepik](https://www.freepik.com/free-photo/people-working-out-indoors-together-with-dumbbells_20287182.htm#from_view=detail_alsolike)
 
 ### Acknowledgements
-- A Thank You to my mentor Mo shami for the advices and feedback.
 - The Slack Community for their support.
 
 #### Youtube channels that was in great help for my projcet are: 
